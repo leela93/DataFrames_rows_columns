@@ -14,16 +14,16 @@
 ```
 import pandas as pd
 ```
-#### 2. Creating a dataset
+#### 2. Creating a dataset "boxes"
 ```
 boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red'],
          'Shape': ['Rectangle', 'Rectangle', 'Square', 'Rectangle','Square','Square','Square','Rectangle'],
          'Price': [10,15,5,5,10,15,15,5]
          }
 ```
-##### Visualisation of Data
+##### Visualisation of variable "boxes"
 ![data](https://user-images.githubusercontent.com/49682375/107990116-fee2ef80-6fd3-11eb-96e2-3b28df172552.JPG)
-#### 3. Converting data in to DataFrame
+#### 3. Converting "boxes" in to DataFrame "df"
 ```
 df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```

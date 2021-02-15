@@ -32,5 +32,9 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 
 #### 4. Selection of Rows, based on character of data
 * Selecting rows of data with Specific Color Characters
+```
+select_color = df.loc[df['Color'] == 'Green']
+```
+
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

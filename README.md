@@ -35,20 +35,38 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
 select_color = df.loc[df['Color'] == 'Green']
 ```
-* Visualisation of "select_color"
+##### Visualisation of "select_color"
 ![color_green](https://user-images.githubusercontent.com/49682375/107990997-f4c1f080-6fd5-11eb-84c4-10b4d67bbb04.JPG)
 
 * Selecting rows of data with Specific Shape "Rectangle"
 ```
 select_shape = df.loc[df['Shape'] == 'Rectangle']
 ```
-* Visualisation of "select_shape"
-
+##### Visualisation of "select_shape"
+![select_shape](https://user-images.githubusercontent.com/49682375/107992399-eaedbc80-6fd8-11eb-8cd1-b9c52baa3e3b.JPG)
 * Selecting rows of data with Specific Price "5"
 ```
 select_price = df.loc[df['Price']== 5]
 ```
-* Visualisation of "select_price"
-
+##### Visualisation of "select_price"
+![select_price](https://user-images.githubusercontent.com/49682375/107992479-1670a700-6fd9-11eb-8476-76c36f9fcbe8.JPG)
+* Selecting rows of data with specific color **AND** shape
+```
+select_col_and_sha = df.loc[(df['Color'] == 'Green' )&(df['Shape'] == 'Rectangle')]
+```
+##### Visualisation of "select_col_and_sha"
+![select_col_and_sha](https://user-images.githubusercontent.com/49682375/107992547-415afb00-6fd9-11eb-8599-cbdae9c0aeac.JPG)
+* Selecting rows of data with specific color **OR** shape
+```
+select_col_or_sha = df.loc[(df['Color'] == 'Green' )|(df['Shape'] == 'Rectangle')]
+```
+##### Visualisation of "select_col_or_sha
+![select_col_or_sha](https://user-images.githubusercontent.com/49682375/107992636-63ed1400-6fd9-11eb-9fa4-67ed48e904e8.JPG)
+* Selecting rows, Where the price is **>=** 10
+```
+select_price_gre_10 = df.loc[df['Price'] >= 10]
+```
+##### Visualisation of "select_price_gre_10"
+![select_price_gre_10](https://user-images.githubusercontent.com/49682375/107992709-8c750e00-6fd9-11eb-83f5-b4217911cde8.JPG)
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

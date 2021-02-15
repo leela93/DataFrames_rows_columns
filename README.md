@@ -29,5 +29,7 @@ boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red
 ```
 df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
+#### Visualisation of Data
+![dataframe](https://user-images.githubusercontent.com/49682375/107990407-b6780180-6fd4-11eb-8c30-6d7307eb4bd0.JPG)
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

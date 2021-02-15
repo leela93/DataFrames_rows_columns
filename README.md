@@ -14,5 +14,12 @@
 import pandas as pd
 ```
 
+#### 2. Creating a dataset
+```
+boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red'],
+         'Shape': ['Rectangle', 'Rectangle', 'Square', 'Rectangle','Square','Square','Square','Rectangle'],
+         'Price': [10,15,5,5,10,15,15,5]
+         }
+```
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

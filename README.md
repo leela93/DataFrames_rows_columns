@@ -1,8 +1,8 @@
 # DataFrames_rows_columns
 
-## Code for selecting rows and columns, based on characters of Data.
+### Code for selecting rows and columns, based on characters of Data.
 
-## Following are the actions performed on Simple data set
+#### Following are the actions performed on Simple data set
 
 1. Importing Library
 2. Creating a dataset

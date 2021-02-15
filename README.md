@@ -69,4 +69,16 @@ select_price_gre_10 = df.loc[df['Price'] >= 10]
 ##### Visualisation of "select_price_gre_10"
 ![select_price_gre_10](https://user-images.githubusercontent.com/49682375/107992709-8c750e00-6fd9-11eb-83f5-b4217911cde8.JPG)
 
+#### Selection of Column **Color**
+```
+select_column_1 = df['Color']
+```
+##### Visualisation of "select_column_1"
+![select_column_1](https://user-images.githubusercontent.com/49682375/107993121-816ead80-6fda-11eb-9ea6-ed819e1d923f.JPG)
+#### Selection of Column **Color and Shape**
+```
+select_column_2 = df[['Color', 'Shape']]
+```
+##### Visualisation of "select_column_2"
+![select_column_2](https://user-images.githubusercontent.com/49682375/107993133-89c6e880-6fda-11eb-9e39-249f0feff49a.JPG)
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

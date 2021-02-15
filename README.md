@@ -1,2 +1,5 @@
-# DataFrames_rows_columns
-This is a file contains selection of rows and columns from a data frame
+Markup # DataFrames_rows_columns
+
+Markup ## Code for selecting rows and columns, based on characters of Data.
+
+

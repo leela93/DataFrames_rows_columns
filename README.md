@@ -27,7 +27,7 @@ boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red
 ```
 df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
-##### Visualisation of Data
+##### Visualisation of "df"
 ![dataframe](https://user-images.githubusercontent.com/49682375/107990407-b6780180-6fd4-11eb-8c30-6d7307eb4bd0.JPG)
 
 #### 4. Selection of Rows, based on character of data
@@ -35,6 +35,8 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
 select_color = df.loc[df['Color'] == 'Green']
 ```
+###### Visualisation of "select_color"
+![color_green](https://user-images.githubusercontent.com/49682375/107990997-f4c1f080-6fd5-11eb-84c4-10b4d67bbb04.JPG)
 
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

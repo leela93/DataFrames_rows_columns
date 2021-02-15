@@ -21,7 +21,7 @@ boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red
          'Price': [10,15,5,5,10,15,15,5]
          }
 ```
-https://github.com/leela93/DataFrames_rows_columns/blob/main/data.JPG
+![data](https://user-images.githubusercontent.com/49682375/107990116-fee2ef80-6fd3-11eb-96e2-3b28df172552.JPG)
 #### 3. Converting data in to DataFrame
 ```
 df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])

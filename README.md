@@ -9,6 +9,10 @@
 3. Converting data into DataFrames
 4. Selection of based on Specific characters
 
-### 1. Importing Library
-code(import pandas as pd)
+#### 1. Importing Library
+```Python
+import pandas as pd
+```
+
+
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

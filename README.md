@@ -81,4 +81,6 @@ select_column_2 = df[['Color', 'Shape']]
 ```
 ##### Visualisation of "select_column_2"
 ![select_column_2](https://user-images.githubusercontent.com/49682375/107993133-89c6e880-6fda-11eb-9e39-249f0feff49a.JPG)
+
+
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

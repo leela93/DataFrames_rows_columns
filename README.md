@@ -1,6 +1,8 @@
 # DataFrames_rows_columns
 
-### Code for selecting rows and columns, based on characters of Data.
+## Code for selecting rows and columns, based on characters of Data.
+
+### The whole code is executed in Spyder IDE with Python3.7
 
 #### Following are the actions performed on Simple data set
 
@@ -21,6 +23,7 @@ boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red
          'Price': [10,15,5,5,10,15,15,5]
          }
 ```
+##### Visualisation of Data
 ![data](https://user-images.githubusercontent.com/49682375/107990116-fee2ef80-6fd3-11eb-96e2-3b28df172552.JPG)
 #### 3. Converting data in to DataFrame
 ```

@@ -35,20 +35,20 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
 select_color = df.loc[df['Color'] == 'Green']
 ```
-###### Visualisation of "select_color"
+* Visualisation of "select_color"
 ![color_green](https://user-images.githubusercontent.com/49682375/107990997-f4c1f080-6fd5-11eb-84c4-10b4d67bbb04.JPG)
 
 * Selecting rows of data with Specific Shape "Rectangle"
 ```
 select_shape = df.loc[df['Shape'] == 'Rectangle']
 ```
-###### Visualisation of "select_shape"
+* Visualisation of "select_shape"
 
 * Selecting rows of data with Specific Price "5"
 ```
 select_price = df.loc[df['Price']== 5]
 ```
-###### Visualisation of "select_price"
+* Visualisation of "select_price"
 
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

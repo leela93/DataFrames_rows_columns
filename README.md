@@ -10,7 +10,7 @@
 4. Selection of based on Specific characters
 
 #### 1. Importing Library
-```Python
+```
 import pandas as pd
 ```
 
@@ -20,6 +20,11 @@ boxes = {'Color': ['Green', 'Green', 'Green', 'Blue', 'Blue', 'Red', 'Red', 'Red
          'Shape': ['Rectangle', 'Rectangle', 'Square', 'Rectangle','Square','Square','Square','Rectangle'],
          'Price': [10,15,5,5,10,15,15,5]
          }
+```
+![alt text](https://github.com/leela93/DataFrames_rows_columns/blob/main/data.JPG
+#### 3. Converting data in to DataFrame
+```
+df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ```
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

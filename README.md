@@ -9,7 +9,7 @@
 1. Importing Library
 2. Creating a dataset
 3. Converting data into DataFrames
-4. Selection of based on Specific characters
+4. Selection of rows and columns based on Specific characters
 #### 1. Importing Library
 ```
 import pandas as pd
@@ -30,5 +30,7 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ##### Visualisation of Data
 ![dataframe](https://user-images.githubusercontent.com/49682375/107990407-b6780180-6fd4-11eb-8c30-6d7307eb4bd0.JPG)
 
+#### 4. Selection of Rows, based on character of data
+* Selecting rows of data with Specific Color Characters
 
 Source: All the Data is taken from the link <https://datatofish.com/select-rows-pandas-dataframe/>

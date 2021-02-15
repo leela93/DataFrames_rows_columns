@@ -31,7 +31,7 @@ df = pd.DataFrame(boxes, columns=['Color','Shape','Price'])
 ![dataframe](https://user-images.githubusercontent.com/49682375/107990407-b6780180-6fd4-11eb-8c30-6d7307eb4bd0.JPG)
 
 #### 4. Selection of Rows, based on character of data
-* Selecting rows of data with Specific Color Characters
+* Selecting rows of data with Specific @@ "Color" in green @@ Characters
 ```
 select_color = df.loc[df['Color'] == 'Green']
 ```

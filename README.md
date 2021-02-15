@@ -1,6 +1,6 @@
 # DataFrames_rows_columns
 
-## Code for selecting rows and columns, based on characters of Data.
+## Code for selecting rows and columns in DataFrame, based on characters of Data.
 
 ### The whole code is executed in Spyder IDE with Python3.7
 
